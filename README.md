@@ -10,7 +10,7 @@ Open your terminal.
 `$ cd` to your Scrivito project
 
 ```
-$ npm install scrivito-accordion
+$ npm install scrivito-accessible-accordion
 ```
 
 Import the widget in your javascript (e.g. in `index.js` or `Widgets/index.js`).
@@ -18,19 +18,19 @@ Import the widget in your javascript (e.g. in `index.js` or `Widgets/index.js`).
 Add this line to your index.js:
 
 ```
-import "scrivito-accordion";
+import "scrivito-accessible-accordion";
 ```
 
 Also add the styling of the widget to your app. This can be done by either loading it via `css-loader` (e.g. in `index.js` or `Widgets/index.js`):
 
 ```
-import "scrivito-accordion/index.css";
+import "scrivito-accessible-accordion/index.css";
 ```
 
 Or by including the styling to your style sheets (e.g. in `index.scss`):
 
 ```scss
-@import "~scrivito-accordion/index.css";
+@import "~scrivito-accessible-accordion/index.css";
 ```
 
 Also add the styling for react-accessible-accordeon a dependencie of this widget.
@@ -41,14 +41,13 @@ Also add the styling for react-accessible-accordeon a dependencie of this widget
 
 
 ## Features
-The Scrivito Headline Widget has one extra feature compared to the *normal* headline Widget.
-It can store an anchor ID. The Widget should be used in conjunction with our Scrivito Advanced Button widget which offers a link to anchors and smooth scrolling.
+The Scrivito Accordion Widget hides and reveals text.
 
 ## Development
 
 With `npm run build` you can build the package into `build/`.
 
-With `npm start` you'll start a continues process, that rebuilds `build/` automatically once the source code is changed.
+With `npm start` you'll start a continuous process, that rebuilds `build/` automatically once the source code is changed.
 
 To add this library locally do the following in your scrivito app:
 
@@ -59,7 +58,7 @@ npm install file:<path to build folder>
 e.g.
 
 ```
-npm install file:../scrivito-accordion/build/
+npm install file:../scrivito-accessible-accordion/build/
 ```
 
 To publish the package:
